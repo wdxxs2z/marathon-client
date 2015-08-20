@@ -3,7 +3,7 @@
 This project is a Java library for communicating with Marathon API. At this point this library supports version v2 of Marathon API, please refer [docs](https://mesosphere.github.io/marathon/docs/rest-api.html) for more details.
 
 ## Fork
-This is a fork of [mohitsoni/marathon-client](mohitsoni/marathon-client).
+This is a fork of [mohitsoni/marathon-client](mohitsoni/marathon-client) and [willroden/marathon-client](willroden/marathon-client)
 
 ## Using marathon-client in your maven project
 
