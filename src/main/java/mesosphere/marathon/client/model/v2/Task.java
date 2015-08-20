@@ -11,6 +11,7 @@ public class Task {
 	private Collection<Integer> ports;
 	private String stagedAt;
 	private String startedAt;
+	private Collection<HealthCheckResults> healthCheckResults;
 
 	public String getHost() {
 		return host;
@@ -59,10 +60,18 @@ public class Task {
 	public void setStartedAt(String startedAt) {
 		this.startedAt = startedAt;
 	}
+	
+	public Collection<HealthCheckResults> getHealthCheckResults() {
+		return healthCheckResults;
+	}
+
+	public void setHealthCheckResults(Collection<HealthCheckResults> healthCheckResults) {
+		this.healthCheckResults = healthCheckResults;
+	}
 
 	@Override
 	public String toString() {
 		return ModelUtils.toString(this);
-	}
+	}	
 
 }
